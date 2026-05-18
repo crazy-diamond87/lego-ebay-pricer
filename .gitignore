@@ -1,0 +1,47 @@
+# ── Credentials & secrets ────────────────────────────────────
+.env
+
+# ── Database ─────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Generated outputs ─────────────────────────────────────────
+output/
+images/
+image_results.csv
+debug_page*.png
+debug_page*.html
+
+# ── Catalog CSVs (may contain pricing info) ──────────────────
+catalog_loaded.csv
+catalog_new.csv
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Playwright ────────────────────────────────────────────────
+playwright-report/
+test-results/
+
+# ── IDE / OS ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
